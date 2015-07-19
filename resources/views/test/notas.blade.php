@@ -23,4 +23,24 @@
 	@endforeach
 	</ul>
 
+	<br><br>
+
+	<h1> Segundo Bloco </h1>
+
+	<ul>
+	@foreach($notas as $nota)
+			<li>{{ $nota }}</li>
+	@endforeach
+	</ul>
+
+	<br><br>
+
+	<h1> Terceiro Bloco </h1>
+
+	<ul>
+	@foreach($notas as $nota)
+			<li>{{ $nota }}</li>
+	@endforeach
+	</ul>
+
 @stop	
