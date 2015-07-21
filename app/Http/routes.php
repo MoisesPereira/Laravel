@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Route::get('test/{nome}', 'TestController@index');
-Route::get('notas', 'TestController@notas');
+Route::get('/', 'TestController@notas');
